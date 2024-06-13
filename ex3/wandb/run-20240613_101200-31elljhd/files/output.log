@@ -1,0 +1,50 @@
+{'episode': 0, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 10.0}
+{'episode': 500, 'epsilon': 0, 'ep_reward': 8.0, 'timesteps': 8, 'ep_reward_avg': 9.296}
+/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 1000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.418}
+{'episode': 1500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.328}
+{'episode': 2000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.346}
+{'episode': 2500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.35}
+{'episode': 3000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.306}
+{'episode': 3500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.336}
+{'episode': 4000, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 9.416}
+{'episode': 4500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.41}
+{'episode': 5000, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 9.368}
+{'episode': 5500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.354}
+{'episode': 6000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.296}
+{'episode': 6500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.344}
+{'episode': 7000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.29}
+{'episode': 7500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.36}
+{'episode': 8000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.362}
+{'episode': 8500, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.352}
+{'episode': 9000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.352}
+{'episode': 9500, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 9.402}
+{'episode': 10000, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 9.36}
+{'episode': 10500, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 9.364}
+{'episode': 11000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.346}
+{'episode': 11500, 'epsilon': 0, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 9.346}
+{'episode': 12000, 'epsilon': 0, 'ep_reward': 9.0, 'timesteps': 9, 'ep_reward_avg': 9.336}
+Traceback (most recent call last):
+  File "/scratch/work/zhangy50/Aalto_RL/ex3/train.py", line 152, in <module>
+    main()
+  File "/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/scratch/work/zhangy50/.conda_envs/rl/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/scratch/work/zhangy50/Aalto_RL/ex3/train.py", line 121, in main
+    q_table = update_q_value(state, action, new_state, cfg.gamma, reward, done, cfg.alpha,
+  File "/scratch/work/zhangy50/Aalto_RL/ex3/train.py", line 69, in update_q_value
+    alpha * (reward + gamma * np.max(q_table[new_table_idx]) - q_table[old_table_idx][action])
+  File "<__array_function__ internals>", line 177, in amax
+KeyboardInterrupt

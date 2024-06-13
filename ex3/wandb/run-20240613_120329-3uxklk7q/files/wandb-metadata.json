@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.14.0-362.24.1.el9_3.x86_64-x86_64-with-glibc2.34",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-06-13T09:03:29.992702",
+    "startedAt": "2024-06-13T09:03:29.092532",
+    "docker": null,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [
+        "env=lunarlander_v2",
+        "epsilon=glie",
+        "train_episodes=500000"
+    ],
+    "state": "running",
+    "program": "/scratch/work/zhangy50/Aalto_RL/ex3/train.py",
+    "codePath": "ex3/train.py",
+    "git": {
+        "remote": "https://github.com/YBCheung/Aalto_RL.git",
+        "commit": "e627f6c7396cbb6792d935777ea467d066909403"
+    },
+    "email": null,
+    "root": "/scratch/work/zhangy50/Aalto_RL",
+    "host": "login4.triton.aalto.fi",
+    "username": "zhangy50",
+    "executable": "/scratch/work/zhangy50/.conda_envs/rl/bin/python"
+}
