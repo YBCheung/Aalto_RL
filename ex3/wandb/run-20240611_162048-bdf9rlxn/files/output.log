@@ -1,0 +1,10 @@
+
+[16, 16, 16, 16, 2] [2]
+/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex3/train.py", line 103, in main
+    epsilon = cfg.glie_b / (cfg.glie_b + ep)
+ZeroDivisionError: division by zero
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

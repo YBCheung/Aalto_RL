@@ -1,0 +1,51 @@
+/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/gym/envs/registration.py:593: UserWarning: [33mWARN: The environment CartPole-v0 is out of date. You should consider upgrading to version `v1`.
+  logger.warn(
+{'episode': 0, 'epsilon': 1.0, 'ep_reward': 13.0, 'timesteps': 13, 'ep_reward_avg': 13.0}
+{'episode': 500, 'epsilon': 0.8, 'ep_reward': 10.0, 'timesteps': 10, 'ep_reward_avg': 24.328}
+{'episode': 1000, 'epsilon': 0.6666666666666666, 'ep_reward': 36.0, 'timesteps': 36, 'ep_reward_avg': 34.556}
+{'episode': 1500, 'epsilon': 0.5714285714285714, 'ep_reward': 23.0, 'timesteps': 23, 'ep_reward_avg': 46.056}
+{'episode': 2000, 'epsilon': 0.5, 'ep_reward': 20.0, 'timesteps': 20, 'ep_reward_avg': 64.372}
+{'episode': 2500, 'epsilon': 0.4444444444444444, 'ep_reward': 129.0, 'timesteps': 129, 'ep_reward_avg': 89.534}
+{'episode': 3000, 'epsilon': 0.4, 'ep_reward': 176.0, 'timesteps': 176, 'ep_reward_avg': 109.094}
+{'episode': 3500, 'epsilon': 0.36363636363636365, 'ep_reward': 142.0, 'timesteps': 142, 'ep_reward_avg': 117.942}
+{'episode': 4000, 'epsilon': 0.3333333333333333, 'ep_reward': 95.0, 'timesteps': 95, 'ep_reward_avg': 121.204}
+{'episode': 4500, 'epsilon': 0.3076923076923077, 'ep_reward': 113.0, 'timesteps': 113, 'ep_reward_avg': 136.592}
+{'episode': 5000, 'epsilon': 0.2857142857142857, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 149.632}
+{'episode': 5500, 'epsilon': 0.26666666666666666, 'ep_reward': 157.0, 'timesteps': 157, 'ep_reward_avg': 152.796}
+{'episode': 6000, 'epsilon': 0.25, 'ep_reward': 174.0, 'timesteps': 174, 'ep_reward_avg': 159.838}
+{'episode': 6500, 'epsilon': 0.23529411764705882, 'ep_reward': 89.0, 'timesteps': 89, 'ep_reward_avg': 161.738}
+{'episode': 7000, 'epsilon': 0.2222222222222222, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 151.734}
+{'episode': 7500, 'epsilon': 0.21052631578947367, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 152.236}
+{'episode': 8000, 'epsilon': 0.2, 'ep_reward': 44.0, 'timesteps': 44, 'ep_reward_avg': 155.566}
+{'episode': 8500, 'epsilon': 0.19047619047619047, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 145.384}
+{'episode': 9000, 'epsilon': 0.18181818181818182, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 165.232}
+{'episode': 9500, 'epsilon': 0.17391304347826086, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 179.776}
+{'episode': 10000, 'epsilon': 0.16666666666666666, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 180.442}
+{'episode': 10500, 'epsilon': 0.16, 'ep_reward': 100.0, 'timesteps': 100, 'ep_reward_avg': 156.734}
+{'episode': 11000, 'epsilon': 0.15384615384615385, 'ep_reward': 110.0, 'timesteps': 110, 'ep_reward_avg': 171.074}
+{'episode': 11500, 'epsilon': 0.14814814814814814, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 177.962}
+{'episode': 12000, 'epsilon': 0.14285714285714285, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 171.126}
+{'episode': 12500, 'epsilon': 0.13793103448275862, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 185.226}
+{'episode': 13000, 'epsilon': 0.13333333333333333, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 161.02}
+{'episode': 13500, 'epsilon': 0.12903225806451613, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 177.102}
+{'episode': 14000, 'epsilon': 0.125, 'ep_reward': 149.0, 'timesteps': 149, 'ep_reward_avg': 182.056}
+{'episode': 14500, 'epsilon': 0.12121212121212122, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 162.12}
+{'episode': 15000, 'epsilon': 0.11764705882352941, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 163.982}
+{'episode': 15500, 'epsilon': 0.11428571428571428, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 191.432}
+{'episode': 16000, 'epsilon': 0.1111111111111111, 'ep_reward': 30.0, 'timesteps': 30, 'ep_reward_avg': 170.18}
+{'episode': 16500, 'epsilon': 0.10810810810810811, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 174.288}
+{'episode': 17000, 'epsilon': 0.10526315789473684, 'ep_reward': 134.0, 'timesteps': 134, 'ep_reward_avg': 176.534}
+{'episode': 17500, 'epsilon': 0.10256410256410256, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 168.76}
+{'episode': 18000, 'epsilon': 0.1, 'ep_reward': 90.0, 'timesteps': 90, 'ep_reward_avg': 180.928}
+{'episode': 18500, 'epsilon': 0.0975609756097561, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 184.988}
+{'episode': 19000, 'epsilon': 0.09523809523809523, 'ep_reward': 200.0, 'timesteps': 200, 'ep_reward_avg': 182.196}
+{'episode': 19500, 'epsilon': 0.09302325581395349, 'ep_reward': 114.0, 'timesteps': 114, 'ep_reward_avg': 177.124}
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex3/train.py", line 143, in main
+    h.save_object({'q_table': q_table, 'axis': q_axis},
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/common/helper.py", line 57, in save_object
+    with open(filename, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex3/results/CartPole-v0/q_table.pkl'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+{'episode': 20000, 'epsilon': 0.09090909090909091, 'ep_reward': 183.0, 'timesteps': 183, 'ep_reward_avg': 181.19}

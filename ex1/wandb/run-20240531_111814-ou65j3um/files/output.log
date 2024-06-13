@@ -1,0 +1,46 @@
+Environment: Reacher-v1
+Training device: cuda
+Observation space dimensions: 2
+Action space dimensions: 5
+Episode 0 finished. Total reward: -466.37571095414313 (200 timesteps)
+Episode 1 finished. Total reward: -565.3174356646657 (200 timesteps)
+Episode 2 finished. Total reward: -372.2214438488682 (200 timesteps)
+Episode 3 finished. Total reward: -295.2644877843078 (157 timesteps)
+Episode 4 finished. Total reward: -610.976664156996 (200 timesteps)
+Episode 5 finished. Total reward: -590.6104942679058 (200 timesteps)
+Episode 6 finished. Total reward: -589.9189657170759 (200 timesteps)
+Episode 7 finished. Total reward: -439.6010602955984 (200 timesteps)
+Episode 8 finished. Total reward: -270.6901885702641 (200 timesteps)
+Episode 9 finished. Total reward: -412.7575294070674 (200 timesteps)
+Updating the policy...
+Error executing job with overrides: ['env=reacher_v1', 'train_episodes=500']
+Traceback (most recent call last):
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/train.py", line 184, in <module>
+    main()
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 216, in run_and_report
+    raise ex
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 132, in run
+    _ = ret.return_value
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/core/utils.py", line 260, in return_value
+    raise self._return_value
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/train.py", line 145, in main
+    train_info = train(agent, env,
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/train.py", line 49, in train
+    agent.update_policy()
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/agent.py", line 82, in update_policy
+    self.ppo_epoch()
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/agent.py", line 120, in ppo_epoch
+    print(self.states.device, self.actions.device, self.rewards.device, self.next_states.device, self.dones.device, self.action_log_probs.device, batch_indices.device)
+AttributeError: 'numpy.ndarray' object has no attribute 'device'

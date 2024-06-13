@@ -1,0 +1,33 @@
+Environment: Reacher-v1
+Training device: cuda
+Observation space dimensions: 2
+Action space dimensions: 5
+Error executing job with overrides: ['env=reacher_v1', 'train_episodes=500']
+Traceback (most recent call last):
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/train.py", line 185, in <module>
+    main()
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 216, in run_and_report
+    raise ex
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 132, in run
+    _ = ret.return_value
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/core/utils.py", line 260, in return_value
+    raise self._return_value
+  File "/home/yibo/anaconda3/envs/rl/lib/python3.10/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/train.py", line 146, in main
+    train_info = train(agent, env,
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/train.py", line 33, in train
+    action, action_log_prob = agent.get_action(observation)
+  File "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/agent.py", line 152, in get_action
+    x = torch.from_numpy(observation).float().to(self.train_device)
+TypeError: expected np.ndarray (got Tensor)

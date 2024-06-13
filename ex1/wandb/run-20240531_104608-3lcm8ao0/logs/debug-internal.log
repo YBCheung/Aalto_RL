@@ -1,0 +1,208 @@
+2024-05-31 10:46:08,081 INFO    StreamThr :49054 [internal.py:wandb_internal():90] W&B internal server running at pid: 49054, started at: 2024-05-31 10:46:08.081509
+2024-05-31 10:46:08,084 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: status
+2024-05-31 10:46:08,085 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: status
+2024-05-31 10:46:08,086 DEBUG   SenderThread:49054 [sender.py:send():302] send: header
+2024-05-31 10:46:08,086 INFO    WriterThread:49054 [datastore.py:open_for_write():75] open: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/run-3lcm8ao0.wandb
+2024-05-31 10:46:08,086 DEBUG   SenderThread:49054 [sender.py:send():302] send: run
+2024-05-31 10:46:08,797 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: check_version
+2024-05-31 10:46:08,799 INFO    SenderThread:49054 [dir_watcher.py:__init__():216] watching files in: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files
+2024-05-31 10:46:08,799 INFO    SenderThread:49054 [sender.py:_start_run_threads():913] run started: 3lcm8ao0 with start time 1717141568.079264
+2024-05-31 10:46:08,799 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:08,799 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:08,799 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: check_version
+2024-05-31 10:46:08,871 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: run_start
+2024-05-31 10:46:08,900 DEBUG   HandlerThread:49054 [meta.py:__init__():35] meta init
+2024-05-31 10:46:08,900 DEBUG   HandlerThread:49054 [meta.py:__init__():50] meta init done
+2024-05-31 10:46:08,900 DEBUG   HandlerThread:49054 [meta.py:probe():216] probe
+2024-05-31 10:46:08,909 DEBUG   HandlerThread:49054 [git.py:repo():40] git repository is invalid
+2024-05-31 10:46:08,909 DEBUG   HandlerThread:49054 [meta.py:_save_pip():54] save pip
+2024-05-31 10:46:08,909 DEBUG   HandlerThread:49054 [meta.py:_save_pip():68] save pip done
+2024-05-31 10:46:08,909 DEBUG   HandlerThread:49054 [meta.py:_save_conda():75] save conda
+2024-05-31 10:46:09,799 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_created():275] file/dir created: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/conda-environment.yaml
+2024-05-31 10:46:09,800 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_created():275] file/dir created: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-summary.json
+2024-05-31 10:46:09,800 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_created():275] file/dir created: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/requirements.txt
+2024-05-31 10:46:10,396 DEBUG   HandlerThread:49054 [meta.py:_save_conda():85] save conda done
+2024-05-31 10:46:10,396 DEBUG   HandlerThread:49054 [meta.py:probe():254] probe done
+2024-05-31 10:46:10,397 DEBUG   SenderThread:49054 [sender.py:send():302] send: files
+2024-05-31 10:46:10,397 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2024-05-31 10:46:10,401 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-31 10:46:10,401 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: stop_status
+2024-05-31 10:46:10,731 DEBUG   SenderThread:49054 [sender.py:send():302] send: telemetry
+2024-05-31 10:46:10,799 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/conda-environment.yaml
+2024-05-31 10:46:10,799 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_created():275] file/dir created: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-metadata.json
+2024-05-31 10:46:11,140 INFO    Thread-16 :49054 [upload_job.py:push():138] Uploaded file /tmp/tmp5wf6l5b7wandb/18im8sd1-wandb-metadata.json
+2024-05-31 10:46:11,799 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_created():275] file/dir created: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/output.log
+2024-05-31 10:46:11,962 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:11,962 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:11,962 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:11,962 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:12,363 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:12,364 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:12,364 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:12,364 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:12,706 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:12,706 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:12,706 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:12,707 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:12,800 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-summary.json
+2024-05-31 10:46:12,977 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:12,977 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:12,977 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:12,978 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:13,322 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:13,323 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:13,323 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:13,323 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:13,663 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:13,664 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:13,664 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:13,664 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:13,800 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-summary.json
+2024-05-31 10:46:13,800 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/output.log
+2024-05-31 10:46:14,002 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:14,003 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:14,003 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:14,003 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:14,342 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:14,343 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:14,343 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:14,343 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:14,684 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:14,685 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:14,685 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:14,685 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:14,800 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-summary.json
+2024-05-31 10:46:15,027 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: partial_history
+2024-05-31 10:46:15,027 DEBUG   SenderThread:49054 [sender.py:send():302] send: history
+2024-05-31 10:46:15,027 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:15,028 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:15,229 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:15,229 DEBUG   SenderThread:49054 [sender.py:send():302] send: exit
+2024-05-31 10:46:15,229 INFO    SenderThread:49054 [sender.py:send_exit():438] handling exit code: 1
+2024-05-31 10:46:15,229 INFO    SenderThread:49054 [sender.py:send_exit():440] handling runtime: 6
+2024-05-31 10:46:15,229 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:15,229 INFO    SenderThread:49054 [sender.py:send_exit():446] send defer
+2024-05-31 10:46:15,229 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:15,229 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:15,229 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 0
+2024-05-31 10:46:15,230 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:15,230 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 0
+2024-05-31 10:46:15,230 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 1
+2024-05-31 10:46:15,230 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:15,230 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 1
+2024-05-31 10:46:15,272 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:15,272 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 1
+2024-05-31 10:46:15,272 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 2
+2024-05-31 10:46:15,272 DEBUG   SenderThread:49054 [sender.py:send():302] send: stats
+2024-05-31 10:46:15,273 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:15,273 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 2
+2024-05-31 10:46:15,273 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:15,273 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 2
+2024-05-31 10:46:15,273 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 3
+2024-05-31 10:46:15,273 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:15,273 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 3
+2024-05-31 10:46:15,274 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:15,274 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 3
+2024-05-31 10:46:15,274 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 4
+2024-05-31 10:46:15,274 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:15,274 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 4
+2024-05-31 10:46:15,274 DEBUG   SenderThread:49054 [sender.py:send():302] send: summary
+2024-05-31 10:46:15,275 INFO    SenderThread:49054 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2024-05-31 10:46:15,275 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:15,275 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 4
+2024-05-31 10:46:15,275 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 5
+2024-05-31 10:46:15,275 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:15,275 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 5
+2024-05-31 10:46:15,275 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:15,275 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 5
+2024-05-31 10:46:15,331 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:15,549 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 6
+2024-05-31 10:46:15,549 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:15,550 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:15,550 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 6
+2024-05-31 10:46:15,550 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:15,550 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 6
+2024-05-31 10:46:15,651 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:15,801 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/config.yaml
+2024-05-31 10:46:15,802 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-summary.json
+2024-05-31 10:46:15,802 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/output.log
+2024-05-31 10:46:17,242 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 7
+2024-05-31 10:46:17,243 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:17,243 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:17,243 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 7
+2024-05-31 10:46:17,243 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:17,243 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 7
+2024-05-31 10:46:17,243 INFO    SenderThread:49054 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-05-31 10:46:17,345 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:17,803 INFO    Thread-12 :49054 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/output.log
+2024-05-31 10:46:17,805 INFO    SenderThread:49054 [dir_watcher.py:finish():392] scan: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files
+2024-05-31 10:46:17,805 INFO    SenderThread:49054 [dir_watcher.py:finish():406] scan save: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/requirements.txt requirements.txt
+2024-05-31 10:46:17,805 INFO    SenderThread:49054 [dir_watcher.py:finish():406] scan save: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/conda-environment.yaml conda-environment.yaml
+2024-05-31 10:46:17,806 INFO    SenderThread:49054 [dir_watcher.py:finish():406] scan save: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-metadata.json wandb-metadata.json
+2024-05-31 10:46:17,806 INFO    SenderThread:49054 [dir_watcher.py:finish():406] scan save: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-summary.json wandb-summary.json
+2024-05-31 10:46:17,807 INFO    SenderThread:49054 [dir_watcher.py:finish():406] scan save: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/output.log output.log
+2024-05-31 10:46:17,811 INFO    SenderThread:49054 [dir_watcher.py:finish():406] scan save: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/config.yaml config.yaml
+2024-05-31 10:46:17,814 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 8
+2024-05-31 10:46:17,815 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:17,822 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:17,822 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 8
+2024-05-31 10:46:17,822 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:17,823 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 8
+2024-05-31 10:46:17,823 INFO    SenderThread:49054 [file_pusher.py:finish():171] shutting down file pusher
+2024-05-31 10:46:17,927 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:17,927 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,029 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,030 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,132 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,132 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,235 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,235 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,336 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,337 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,439 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,440 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,543 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,543 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,621 INFO    Thread-21 :49054 [upload_job.py:push():138] Uploaded file /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/config.yaml
+2024-05-31 10:46:18,624 INFO    Thread-18 :49054 [upload_job.py:push():138] Uploaded file /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/conda-environment.yaml
+2024-05-31 10:46:18,626 INFO    Thread-20 :49054 [upload_job.py:push():138] Uploaded file /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/output.log
+2024-05-31 10:46:18,628 INFO    Thread-19 :49054 [upload_job.py:push():138] Uploaded file /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/wandb-summary.json
+2024-05-31 10:46:18,631 INFO    Thread-17 :49054 [upload_job.py:push():138] Uploaded file /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/files/requirements.txt
+2024-05-31 10:46:18,646 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,647 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,749 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:18,750 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:18,832 INFO    Thread-11 (_thread_body):49054 [sender.py:transition_state():459] send defer: 9
+2024-05-31 10:46:18,833 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:18,834 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 9
+2024-05-31 10:46:18,834 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:18,834 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 9
+2024-05-31 10:46:18,853 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:19,538 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 10
+2024-05-31 10:46:19,538 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:19,539 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:19,540 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 10
+2024-05-31 10:46:19,540 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:19,540 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 10
+2024-05-31 10:46:19,540 INFO    SenderThread:49054 [sender.py:transition_state():459] send defer: 11
+2024-05-31 10:46:19,541 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: defer
+2024-05-31 10:46:19,541 INFO    HandlerThread:49054 [handler.py:handle_request_defer():164] handle defer: 11
+2024-05-31 10:46:19,541 DEBUG   SenderThread:49054 [sender.py:send():302] send: final
+2024-05-31 10:46:19,541 DEBUG   SenderThread:49054 [sender.py:send():302] send: footer
+2024-05-31 10:46:19,541 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: defer
+2024-05-31 10:46:19,541 INFO    SenderThread:49054 [sender.py:send_request_defer():455] handle sender defer: 11
+2024-05-31 10:46:19,642 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: poll_exit
+2024-05-31 10:46:19,642 DEBUG   SenderThread:49054 [sender.py:send_request():316] send_request: poll_exit
+2024-05-31 10:46:19,642 INFO    SenderThread:49054 [file_pusher.py:join():176] waiting for file pusher
+2024-05-31 10:46:20,360 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: sampled_history
+2024-05-31 10:46:20,361 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: get_summary
+2024-05-31 10:46:20,362 INFO    MainThread:49054 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2024-05-31 10:46:20,362 INFO    MainThread:49054 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2024-05-31 10:46:20,362 INFO    MainThread:49054 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2024-05-31 10:46:20,363 DEBUG   HandlerThread:49054 [handler.py:handle_request():141] handle_request: shutdown
+2024-05-31 10:46:20,363 INFO    HandlerThread:49054 [handler.py:finish():810] shutting down handler
+2024-05-31 10:46:20,541 INFO    WriterThread:49054 [datastore.py:close():279] close: /home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/wandb/run-20240531_104608-3lcm8ao0/run-3lcm8ao0.wandb
+2024-05-31 10:46:21,259 INFO    SenderThread:49054 [sender.py:finish():1312] shutting down sender
+2024-05-31 10:46:21,259 INFO    SenderThread:49054 [file_pusher.py:finish():171] shutting down file pusher
+2024-05-31 10:46:21,259 INFO    SenderThread:49054 [file_pusher.py:join():176] waiting for file pusher
+2024-05-31 10:46:21,366 INFO    MainThread:49054 [internal.py:handle_exit():80] Internal process exited

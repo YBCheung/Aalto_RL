@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.15.0-107-generic-x86_64-with-glibc2.31",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-05-31T07:46:08.900927",
+    "startedAt": "2024-05-31T07:46:08.072675",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "env=reacher_v1",
+        "train_episodes=500"
+    ],
+    "state": "running",
+    "program": "/home/yibo/Robot/Reinforcement_learning/RL/rl_course/ex1/train.py",
+    "codePath": "train.py",
+    "host": "yibo-Dell-G15-5520",
+    "username": "yibo",
+    "executable": "/home/yibo/anaconda3/envs/rl/bin/python"
+}
